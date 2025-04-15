@@ -1,0 +1,58 @@
+[data-theme="gameboy"] {
+  --theme-bg: #8b956d; 
+  --theme-window: #9ca384;
+  --theme-header: #4d533c;
+  --theme-text: #1f1f1f;
+  --theme-border: #4d533c;
+  --theme-input-bg: #c4cfa1;
+  --theme-button: #4d533c;
+  --theme-username-color: #1f1f1f;
+  --theme-avatar-bg: #c4cfa1;
+  --theme-select-text: #1f1f1f;
+  --theme-avatar-text: #1f1f1f;
+  --theme-message-bg: #c4cfa1;
+}
+
+[data-theme="gameboy"] .retro-messages {
+  background-color: #c4cfa1;
+  border: 2px solid #4d533c;
+}
+
+[data-theme="gameboy"] .retro-modal-title {
+  color: #1f1f1f;
+  text-shadow: 0 0 2px #1f1f1f;
+}
+
+[data-theme="gameboy"] .avatar-option.selected {
+  background-color: #4d533c;
+  color: #c4cfa1;
+  border: 2px solid #4d533c;
+}
+
+[data-theme="gameboy"] .window-control-button {
+  border-color: #4d533c;
+  background: #8b956d;
+}
+
+[data-theme="gameboy"] .window-control-button:hover {
+  background: #4d533c;
+  color: #c4cfa1;
+}
+
+[data-theme="gameboy"] * {
+  font-family: "Press Start 2P", "VT323", monospace;
+  image-rendering: pixelated;
+}
+
+[data-theme="gameboy"] .retro-message {
+  border: 2px solid var(--theme-border);
+}
+
+[data-theme="gameboy"] .avatar-option .avatar-emoji {
+  color: #1f1f1f;
+  text-shadow: 0 0 2px #1f1f1f;
+}
+
+[data-theme="gameboy"] .avatar-option.selected .avatar-emoji {
+  color: #c4cfa1;
+}

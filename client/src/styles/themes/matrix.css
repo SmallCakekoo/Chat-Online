@@ -1,0 +1,47 @@
+[data-theme="matrix"] {
+  --theme-bg: #000000;
+  --theme-window: #0f0f0f;
+  --theme-header: linear-gradient(90deg, #003300, #006600);
+  --theme-text: #00ff00;
+  --theme-border: #00ff00;
+  --theme-input-bg: #0f0f0f;
+  --theme-button: #006600;
+  --theme-username-color: #00ff00;
+  --theme-avatar-bg: #001100;
+  --theme-select-text: #00ff00;
+  --theme-avatar-text: #00ff00;
+  --theme-message-bg: #0b0c0b;
+}
+
+[data-theme="matrix"] .retro-messages {
+  background-color: #000000;
+  border: 2px solid #00ff00;
+  box-shadow: inset 0 0 10px #00ff00;
+}
+
+[data-theme="matrix"] .retro-modal-title {
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+[data-theme="matrix"] .avatar-option.selected {
+  background-color: #003300;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+[data-theme="matrix"] .retro-select option {
+  background-color: #0f0f0f;
+  color: #00ff00;
+}
+
+[data-theme="matrix"] .avatar-option.selected .avatar-emoji {
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+[data-theme="matrix"] .avatar-option .avatar-emoji {
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}

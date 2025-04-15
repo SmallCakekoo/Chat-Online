@@ -1,0 +1,32 @@
+[data-theme="vaporwave"] {
+  --theme-bg: #ff6ad5;
+  --theme-window: #c774e8;
+  --theme-header: linear-gradient(90deg, #4a148c, #8e24aa);
+  --theme-text: #000000;
+  --theme-border: #ad1457;
+  --theme-input-bg: #f8bbd0;
+  --theme-button: #ff4081;
+  --theme-username-color: #4a148c;
+  --theme-avatar-bg: #ff8af0;
+  --theme-select-text: #4a148c;
+  --theme-message-bg: #f8bbd0;
+}
+
+[data-theme="vaporwave"] .retro-messages {
+  background: linear-gradient(135deg, #ff6ad5 0%, #c774e8 100%);
+  border: 2px solid #ad1457;
+}
+
+[data-theme="vaporwave"] .retro-modal-title {
+  color: #ffffff;
+}
+
+[data-theme="vaporwave"] .avatar-option.selected {
+  background-color: #4a148c;
+  color: #ffffff;
+  border: 2px solid #ad1457;
+}
+
+[data-theme="vaporwave"] .avatar-option.selected .avatar-emoji {
+  color: #ffffff;
+}

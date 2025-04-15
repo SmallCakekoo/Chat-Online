@@ -1,0 +1,51 @@
+[data-theme="aesthetic"] {
+    --theme-bg: #ffb4dc;
+    --theme-window: #ffd4e5;
+    --theme-header: linear-gradient(90deg, #ff69b4, #ff99cc);
+    --theme-text: #4a4a4a;
+    --theme-border: #ff69b4;
+    --theme-input-bg: #ffffff;
+    --theme-button: #ff69b4;
+    --theme-username-color: #ff1493;
+    --theme-avatar-bg: #ffe4f3;
+    --theme-select-text: #4a4a4a;
+    --theme-message-bg: #fff1f9;
+}
+
+[data-theme="aesthetic"] .retro-messages {
+    background: linear-gradient(135deg, #fff1f9 0%, #ffd4e5 100%);
+    border: 2px solid #ff69b4;
+}
+
+[data-theme="aesthetic"] .retro-modal-title {
+    color: #ffffff;
+}
+
+[data-theme="aesthetic"] .avatar-option.selected {
+    background-color: #ff69b4;
+    color: #ffffff;
+    border: 2px solid #ff69b4;
+}
+
+[data-theme="aesthetic"] .window-control-button {
+    border-color: #ff69b4;
+    background: #ffd4e5;
+}
+
+[data-theme="aesthetic"] .window-control-button:hover {
+    background: #ff69b4;
+    color: #ffffff;
+}
+
+[data-theme="aesthetic"] .retro-message {
+    border: 2px solid #ff69b4;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+}
+
+[data-theme="aesthetic"] .avatar-option .avatar-emoji {
+    color: #4a4a4a;
+}
+
+[data-theme="aesthetic"] .avatar-option.selected .avatar-emoji {
+    color: #ffffff;
+}

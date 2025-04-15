@@ -1,0 +1,57 @@
+[data-theme="tamagotchi"] {
+  --theme-bg: #9acd32;
+  --theme-window: #1a4a1a;
+  --theme-header: #1a4a1a;
+  --theme-text: #98fb98;
+  --theme-border: #006400;
+  --theme-input-bg: #1a4a1a;
+  --theme-button: #006400;
+  --theme-username-color: #98fb98;
+  --theme-avatar-bg: #006400;
+  --theme-select-text: #98fb98;
+  --theme-avatar-text: #98fb98;
+  --theme-message-bg: #1a4a1a;
+}
+
+[data-theme="tamagotchi"] .retro-messages {
+  background-color: #1a4a1a;
+  border: 2px solid #006400;
+  box-shadow: inset 0 0 8px #98fb98;
+}
+
+[data-theme="tamagotchi"] .retro-modal-title {
+  color: #98fb98;
+  text-shadow: 0 0 2px #98fb98;
+}
+[data-theme="tamagotchi"] .window-control-button {
+  border-color: #006400;
+}
+
+[data-theme="tamagotchi"] .window-control-button:hover {
+  background: #ff6b6b;
+  color: #98fb98;
+  text-shadow: 0 0 2px #98fb98;
+}
+
+[data-theme="tamagotchi"] .window-control-button.minimize:hover {
+  background: #ffd93d;
+  color: #006400;
+}
+
+[data-theme="tamagotchi"] .window-control-button.maximize:hover {
+  background: #98fb98;
+  color: #006400;
+}
+
+[data-theme="tamagotchi"] * {
+  text-shadow: 0 0 2px var(--theme-text);
+}
+
+[data-theme="tamagotchi"] .retro-message {
+  border: 2px solid var(--theme-border);
+}
+
+[data-theme="tamagotchi"] .avatar-option .avatar-emoji {
+  color: #98fb98;
+  text-shadow: 0 0 2px #98fb98;
+}

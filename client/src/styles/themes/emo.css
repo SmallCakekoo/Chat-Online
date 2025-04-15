@@ -1,0 +1,58 @@
+[data-theme="emo"] {
+    --theme-bg: #0a0a0a;
+    --theme-window: #141414;
+    --theme-header: #000000;
+    --theme-text: #cccccc;
+    --theme-border: #2a2a2a;
+    --theme-input-bg: #0f0f0f;
+    --theme-button: #1a1a1a;
+    --theme-username-color: #cccccc;
+    --theme-avatar-bg: #1a1a1a;
+    --theme-select-text: #cccccc;
+    --theme-avatar-text: #cccccc;
+    --theme-message-bg: #1a1a1a;
+}
+
+[data-theme="emo"] .retro-messages {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    border: 2px solid #2a2a2a;
+}
+
+[data-theme="emo"] .retro-modal-title {
+    color: #cccccc;
+    text-shadow: 0 0 5px #cccccc;
+}
+
+[data-theme="emo"] .avatar-option.selected {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    border: 2px solid #2a2a2a;
+}
+
+[data-theme="emo"] .window-control-button {
+    border-color: #2a2a2a;
+    background: #1a1a1a;
+}
+
+[data-theme="emo"] .window-control-button:hover {
+    background: #4a4a4a;
+    color: #cccccc;
+}
+
+[data-theme="emo"] .window-control-button.minimize:hover,
+[data-theme="emo"] .window-control-button.maximize:hover {
+    background: #2a2a2a;
+    color: #cccccc;
+}
+
+[data-theme="emo"] .retro-message {
+    border-left: 3px solid var(--theme-border);
+}
+
+[data-theme="emo"] .avatar-option .avatar-emoji {
+    color: #cccccc;
+}
+
+[data-theme="emo"] .avatar-option.selected .avatar-emoji {
+    color: #cccccc;
+}

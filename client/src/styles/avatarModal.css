@@ -1,0 +1,100 @@
+.avatar-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.avatar-modal {
+    background-color: var(--theme-window);
+    border: 3px solid var(--theme-border);
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf;
+    width: 80%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.avatar-modal-header {
+    background: var(--theme-header);
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.avatar-modal-title {
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.avatar-modal-content {
+    padding: 16px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.avatar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    gap: 12px;
+    padding: 8px;
+}
+
+.avatar-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-avatar-bg);
+    border: 2px outset var(--theme-border);
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 50px;
+    width: 50px;
+}
+
+.avatar-option:hover {
+    background-color: var(--theme-input-bg);
+    transform: scale(1.05);
+}
+
+.avatar-option.selected {
+    border: 2px inset var(--theme-border);
+    background-color: var(--theme-input-bg);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-emoji {
+    font-size: 24px;
+    text-align: center;
+    font-family: "VT323", monospace;
+}
+
+[data-theme="windows95"] .avatar-option.selected .avatar-emoji {
+    color: white;
+}
+
+[data-theme="tamagotchi"] .avatar-option {
+    border: 2px outset var(--theme-border);
+    background-color: var(--theme-window);
+}
+
+[data-theme="tamagotchi"] .avatar-option .avatar-emoji {
+    color: var(--theme-text);
+    text-shadow: 0 0 2px var(--theme-text);
+}
+
+[data-theme="tamagotchi"] .avatar-option.selected {
+    border: 2px inset var(--theme-border);
+    background-color: var(--theme-avatar-bg);
+}

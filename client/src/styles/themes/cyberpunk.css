@@ -1,0 +1,67 @@
+[data-theme="cyberpunk"] {
+    --theme-bg: #0c0c1d;
+    --theme-window: #1a1a3a;
+    --theme-header: linear-gradient(90deg, #6600cc, #9933ff);
+    --theme-text: #00ff9f;
+    --theme-border: #9933ff;
+    --theme-input-bg: #1a1a3a;
+    --theme-button: #6600cc;
+    --theme-username-color: #00ff9f;
+    --theme-avatar-bg: #1a1a3a;
+    --theme-select-text: #00ff9f;
+    --theme-avatar-text: #00ff9f;
+    --theme-message-bg: #22195c;
+}
+
+[data-theme="cyberpunk"] * {
+    text-shadow: 0 0 5px currentColor;
+}
+
+[data-theme="cyberpunk"] .window-control-button {
+    border-color: #9933ff;
+    background: #1a1a3a;
+}
+
+[data-theme="cyberpunk"] .window-control-button:hover {
+    background: #00ff9f;
+    color: #0c0c1d;
+    text-shadow: 0 0 5px #00ff9f;
+}
+
+[data-theme="cyberpunk"] .window-control-button.minimize:hover {
+    background: #9933ff;
+    color: #00ff9f;
+    text-shadow: 0 0 5px #00ff9f;
+}
+
+[data-theme="cyberpunk"] .window-control-button.maximize:hover {
+    background: #6600cc;
+    color: #00ff9f;
+    text-shadow: 0 0 5px #00ff9f;
+}
+
+[data-theme="cyberpunk"] .retro-messages {
+    background: linear-gradient(135deg, #1a1a3a 0%, #22195c 100%);
+    border: 2px solid #9933ff;
+}
+
+[data-theme="cyberpunk"] .retro-modal-title {
+    color: #00ff9f;
+    text-shadow: 0 0 5px #00ff9f;
+}
+
+[data-theme="cyberpunk"] .avatar-option {
+    color: var(--theme-text);
+}
+
+[data-theme="cyberpunk"] .avatar-option.selected {
+    background-color: #6600cc;
+    color: #00ff9f;
+    border: 2px solid #9933ff;
+    text-shadow: 0 0 5px #00ff9f;
+}
+
+[data-theme="cyberpunk"] .avatar-option.selected .avatar-emoji {
+    color: #00ff9f;
+    text-shadow: 0 0 5px #00ff9f;
+}

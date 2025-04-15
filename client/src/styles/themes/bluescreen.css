@@ -1,0 +1,67 @@
+[data-theme="bluescreen"] {
+  --theme-bg: #000084;
+  --theme-window: #000084;
+  --theme-header: #000084;
+  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-input-bg: #000084;
+  --theme-button: #0000aa;
+  --theme-username-color: #ffffff;
+  --theme-avatar-bg: #0000aa;
+  --theme-select-text: #ffffff;
+  --theme-avatar-text: #ffffff;
+  --theme-message-bg: #0000aa;
+}
+
+[data-theme="bluescreen"] .retro-messages {
+  background-color: #000084;
+  border: 2px solid #ffffff;
+}
+
+[data-theme="bluescreen"] .retro-modal-title {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="bluescreen"] .avatar-option.selected {
+  background-color: #0000aa;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="bluescreen"] .window-control-button {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+[data-theme="bluescreen"] .window-control-button:hover {
+  background: #ff0000;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="bluescreen"] .window-control-button.minimize:hover,
+[data-theme="bluescreen"] .window-control-button.maximize:hover {
+  background: #0000aa;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="bluescreen"] * {
+  font-family: "Courier New", monospace !important;
+}
+
+[data-theme="bluescreen"] .retro-message {
+  border-color: #ffffff;
+}
+
+[data-theme="bluescreen"] .avatar-option .avatar-emoji {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="bluescreen"] .avatar-option.selected .avatar-emoji {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}

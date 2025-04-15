@@ -1,0 +1,142 @@
+.confirmation-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.confirmation-modal {
+    background-color: var(--theme-window);
+    border: 3px solid var(--theme-border);
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf;
+    width: 80%;
+    max-width: 400px;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.confirmation-modal-header {
+    background: var(--theme-header);
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.confirmation-modal-title {
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.confirmation-modal-content {
+    padding: 16px;
+}
+
+.confirmation-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--theme-text);
+    text-align: center;
+}
+
+.confirmation-modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.confirmation-button {
+    padding: 8px 16px;
+    border: 2px outset var(--theme-border);
+    background-color: var(--theme-button);
+    color: var(--theme-text);
+    cursor: pointer;
+    font-family: "VT323", monospace;
+    min-width: 100px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.confirmation-button:hover {
+    filter: brightness(1.1);
+}
+
+.confirmation-button:active {
+    filter: brightness(0.9);
+    border-style: inset;
+}
+
+.confirm-accept {
+    background-color: var(--theme-button);
+    color: var(--theme-text);
+    border: 2px outset var(--theme-border);
+}
+
+.confirm-cancel {
+    background-color: var(--theme-button);
+    color: var(--theme-text);
+    border: 2px outset var(--theme-border);
+}
+
+[data-theme="windows95"] .confirm-accept {
+    background-color: var(--theme-username-color);
+    color: white;
+}
+
+[data-theme="windows95"] .confirm-cancel {
+    background-color: var(--theme-border);
+    color: white;
+}
+
+[data-theme="vaporwave"] .confirm-accept {
+    background-color: var(--theme-username-color);
+    color: var(--theme-bg);
+}
+
+[data-theme="vaporwave"] .confirm-cancel {
+    background-color: var(--theme-border);
+    color: var(--theme-bg);
+}
+
+[data-theme="matrix"] .confirm-accept {
+    background-color: var(--theme-username-color);
+    color: black;
+}
+
+[data-theme="matrix"] .confirm-cancel {
+    background-color: var(--theme-border);
+    color: black;
+}
+
+[data-theme="tamagotchi"] .confirm-accept {
+    background-color: var(--theme-avatar-bg);
+    color: var(--theme-text);
+    text-shadow: 0 0 2px var(--theme-text);
+}
+
+[data-theme="tamagotchi"] .confirm-cancel {
+    background-color: var(--theme-window);
+    color: var(--theme-text);
+    text-shadow: 0 0 2px var(--theme-text);
+}
+
+[data-theme="gameboy"] .confirm-accept {
+    background-color: var(--theme-avatar-bg);
+    color: var(--theme-bg);
+}
+
+[data-theme="gameboy"] .confirm-cancel {
+    background-color: var(--theme-username-color);
+    color: var(--theme-bg);
+}

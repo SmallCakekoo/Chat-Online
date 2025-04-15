@@ -1,0 +1,67 @@
+[data-theme="amiga"] {
+  --theme-bg: #2b4f93;
+  --theme-window: #4f7cba;
+  --theme-header: #2b4f93;
+  --theme-text: #ffffff;
+  --theme-border: #ff8a00;
+  --theme-input-bg: #2b4f93;
+  --theme-button: #ff8a00;
+  --theme-username-color: #ff8a00;
+  --theme-avatar-bg: #2b4f93;
+  --theme-select-text: #ffffff;
+  --theme-avatar-text: #ffffff;
+  --theme-message-bg: #2b4f93;
+}
+
+[data-theme="amiga"] .retro-messages {
+  background-color: #4f7cba;
+  border: 2px solid #ff8a00;
+}
+
+[data-theme="amiga"] .retro-modal-title {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+[data-theme="amiga"] .avatar-option.selected {
+  background-color: #ff8a00;
+  color: #2b4f93;
+  border: 2px solid #ff8a00;
+}
+
+[data-theme="amiga"] .window-control-button {
+  background: var(--theme-button);
+  color: var(--theme-window);
+}
+
+[data-theme="amiga"] .window-control-button:hover {
+  background: #ff8a00;
+  color: #2b4f93;
+}
+
+[data-theme="amiga"] .window-control-button.minimize:hover {
+  background: #ffb347;
+  color: #2b4f93;
+}
+
+[data-theme="amiga"] .window-control-button.maximize:hover {
+  background: #ffa500;
+  color: #2b4f93;
+}
+
+[data-theme="amiga"] .retro-header {
+  border-bottom: 2px solid var(--theme-border);
+}
+
+[data-theme="amiga"] .retro-button {
+  border: 2px outset var(--theme-border);
+}
+
+[data-theme="amiga"] .retro-button:active {
+  border-style: inset;
+}
+
+[data-theme="amiga"] .avatar-option .avatar-emoji {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
